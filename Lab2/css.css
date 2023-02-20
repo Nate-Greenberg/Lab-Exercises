@@ -1,0 +1,43 @@
+
+body { /* Global styling */
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {  /* Global styling */
+    text-align: center;
+}
+
+#description { /* Local styling using an id*/
+    text-align: center;
+    font-size: large;
+}
+
+.images { /* Local styling using a class */
+    padding: 10px;
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    height: 300px;
+    width: 280px;
+    opacity: 80%; /* Element that wasn't learned in class */
+}  
+
+.iframes { /* Local styling using a class */
+    height:400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 10px solid black;
+    border-radius: 25px;  /* Element that wasn't learned in class */
+}
+
+.signup {  /* Local styling using a class */
+    background-image: linear-gradient(red, yellow); /* Element that wasn't learned in class */
+}
+
+.input {  /* Local styling using a class */
+    border: 2px solid black;
+}
